@@ -38,12 +38,11 @@ begin
     else
     begin
     Writeln('Photo tool - by 78372');
-    Writeln('Usage: photool.exe {options} infile outfile');
     Writeln('Options:');
     Writeln('         -resize (Resizes the images)');
     Writeln('         -convert (Converts image to another format)');
     Writeln('Use -w and -h to set the width and height for resizing your image');
-    Writeln('Example: photool.exe -resize -w1366 -h768 infile.bmp outfile.jpg');
+
     end;
   except
     on E: Exception do
